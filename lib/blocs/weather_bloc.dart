@@ -1,5 +1,5 @@
-import 'package:ghimah/bloc/weather_event.dart';
-import 'package:ghimah/bloc/weather_state.dart';
+import 'package:ghimah/blocs/weather_event.dart';
+import 'package:ghimah/blocs/weather_state.dart';
 import 'package:ghimah/repositories/weather_repo.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
