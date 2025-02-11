@@ -1,6 +1,6 @@
-import 'package:ghimah/blocs/weather_event.dart';
-import 'package:ghimah/blocs/weather_state.dart';
-import 'package:ghimah/repositories/weather_repo.dart';
+import 'package:ghimah/logic/blocs/weather_event.dart';
+import 'package:ghimah/logic/blocs/weather_state.dart';
+import 'package:ghimah/data/repositories/weather_repo.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ghimah/blocs/weather_bloc.dart';
-import 'package:ghimah/blocs/weather_event.dart';
-import 'package:ghimah/blocs/weather_state.dart';
-import 'package:ghimah/model/weather_model.dart';
+import 'package:ghimah/logic/blocs/weather_bloc.dart';
+import 'package:ghimah/logic/blocs/weather_event.dart';
+import 'package:ghimah/logic/blocs/weather_state.dart';
+import 'package:ghimah/data/model/weather_model.dart';
 
 class WeatherPage extends StatefulWidget {
   const WeatherPage({super.key});

@@ -1,4 +1,4 @@
-import 'package:ghimah/model/weather_model.dart';
+import 'package:ghimah/data/model/weather_model.dart';
 
 abstract class WeatherState {}
 

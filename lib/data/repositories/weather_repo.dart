@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:ghimah/utils/constants.dart';
+import 'package:ghimah/core/constants/constants.dart';
 import '../model/weather_model.dart';
 
 class WeatherRepository {
