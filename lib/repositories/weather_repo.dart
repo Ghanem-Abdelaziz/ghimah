@@ -10,6 +10,7 @@ class WeatherRepository {
       queryParameters: {
         'q': city,
         'appid': Constants.apiKey,
+        'units': 'metric',
       },
     );
     return Weather.fromJson(response.data);

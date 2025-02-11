@@ -40,11 +40,11 @@ class _WeatherPageState extends State<WeatherPage> {
         ),
       ),
       body: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.white, Colors.blue100],
+            colors: [Colors.white, Colors.blue[100]!],
           ),
         ),
         child: RefreshIndicator(
@@ -82,7 +82,7 @@ class _WeatherPageState extends State<WeatherPage> {
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.2),
+            color: Colors.grey.withAlpha(51),
             spreadRadius: 2,
             blurRadius: 8,
             offset: const Offset(0, 2),
@@ -208,7 +208,7 @@ class _WeatherPageState extends State<WeatherPage> {
               ),
               const SizedBox(height: 20),
               Text(
-                '${weather.temperature}°C',
+                '${weather.temperature.toInt()}°C',
                 style: const TextStyle(
                   fontSize: 48,
                   fontWeight: FontWeight.w600,
@@ -219,7 +219,7 @@ class _WeatherPageState extends State<WeatherPage> {
               Container(
                 padding: const EdgeInsets.all(15),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
+                  color: Colors.white.withAlpha(51),
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: Row(
